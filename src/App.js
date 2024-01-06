@@ -7,6 +7,7 @@ import CheckboxMultiOption from "./Component/CheckboxMultiOption";
 import TextArea from "./Component/TextArea";
 import BotScript from "./Component/BotScript";
 import Radio from "./Component/Radio";
+import UkokkeiScript from "./Component/CustomScript";
 
 function App() {
   const [input, setInput] = useState("");
@@ -45,6 +46,7 @@ function App() {
   };
   return (
     <div className="App">
+      <UkokkeiScript />
       <form id="form" onSubmit={handleSubmit}>
         <BotScript />
         <Input onChange={handleInputChange} />
