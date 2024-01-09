@@ -8,7 +8,7 @@ export default class UkokkeiScript extends React.Component {
     script.innerHTML = `window.ukLpAsyncInit = function() {
       UK.initLp({
         cart_domain: "https://next-demo.tamago-cart.com",
-        lp_form_code: "noni001"
+        lp_form_code: "noni001コピー"
       });
     };
   
